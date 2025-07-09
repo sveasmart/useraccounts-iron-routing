@@ -9,23 +9,23 @@
 Package.describe({
   name: 'useraccounts:iron-routing',
   summary: 'UserAccounts package providing routes configuration capability via iron:router.',
-  version: '1.15.0',
+  version: '1.16.0',
   git: 'https://github.com/meteor-compat/useraccounts-iron-routing.git'
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('METEOR@1.0.3');
+  api.versionsFrom('METEOR@2.16');
 
   api.use([
     'check',
-    'iron:router@1.2.0',
+    'vlasky:galvanized-iron-router@2.0.1',
     'underscore',
-    'useraccounts:core@1.15.0',
+    'useraccounts:core@1.16.2',
   ], ['client', 'server']);
 
   api.imply([
     'useraccounts:core',
-    'iron:router',
+    'vlasky:galvanized-iron-router',
   ], ['client', 'server']);
 
   api.addFiles([

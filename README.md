@@ -5,6 +5,9 @@
 This repository provides versions for the package [useraccounts:iron-routing](https://github.com/meteor-compat/useraccounts-iron-routing/) that are compatible with latest Meteor. This is necessary because the author is not maintaining package anymore.
 
 ## Changes
+- v1.16.0
+  - Updates to 'vlasky:galvanized-iron-router', compatible w. Meteor 3.0
+
 - v1.15.0
   - Updates iron:router to 1.2.0, compatible with jQuery 3.0.0
   - Updates useraccounts:core to 1.15.0
